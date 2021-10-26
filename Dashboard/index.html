@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="main">
+  <div class="left">
+    <ul>
+      <li class="menu-heading">Dashboards</li>
+
+      
+      <li class="active"><a data-toggle="tab" href="#user-profile"><i class="fa fa-street-view fa-lg"></i> Bed Status</a></li>
+      <li><a data-toggle="tab" href="#candidates"><i class="fa fa-users fa-lg"></i> HIS</a></li>
+      <li><a data-toggle="tab" href="#invoices"><i class="fa fa-table fa-lg fa-lg"></i> Blood Bank</a></li>
+      <li><a data-toggle="tab" href="#single-invoice"><i class="fa fa-file-text-o fa-lg"></i> LIS</a></li>
+      <li><a data-toggle="tab" href="#browse"><i class="fa fa-tachometer fa-lg fa-lg"></i> RIS</a></li>
+      <li><a data-toggle="tab" href="#browse"><i class="fa fa-rocket fa-lg fa-lg"></i> Insurance</a></li>
+    </ul>
+  </div>
+  <div class="right"> 
+    <div class="tab-content">
+      
+      <!-- User Profile -->
+      <div id="user-profile" class="tab-pane fade in active">
+        <div class="header">
+            <h4>Clinique PLus</h4>
+              
+            <ul class="pull-right">
+              <li>
+                <div class="btn-group dropleft dropdown-user">
+                  <i class="fa fa-user-o dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  </i>
+                  <ul class="dropdown-menu"> 
+                    <li>
+                      <a href="#">
+                        <div class="alert-card">
+                          <img src="https://bit.ly/2KkoqCO" class="img-circle img-responvie"/>
+                          <p class="pull-right">
+                            Someone mentioned you <br>
+                            <small>You have recieved a mention on twitter, check it out!</small>
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="alert-card">
+                          <img src="https://bit.ly/2MH8Wue" class="img-circle img-responvie"/>
+                          <p class="pull-right">
+                            Someone mentioned you <br>
+                            <small>You have recieved a mention on twitter, check it out!</small>
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="alert-card">
+                          <img src="https://bit.ly/2Km1kf6" class="img-circle img-responvie"/>
+                          <p class="pull-right">
+                            Someone mentioned you <br>
+                            <small>You have recieved a mention on twitter, check it out!</small>
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="btn-group dropleft dropdown-alert">
+                  <i class="fa fa-bell-o dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  </i>
+                  <ul class="dropdown-menu"> 
+                    <li>
+                      <a href="#">
+                        <div class="alert-card">
+                          <i class="fa fa-check-circle fa-2x"></i>
+                          <p class="pull-right">
+                            Someone mentioned you <br>
+                            <small>You have recieved a mention on twitter, check it out!</small>
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="alert-card">
+                          <i class="fa fa-calendar fa-2x"></i>
+                          <p class="pull-right">
+                            Someone mentioned you <br>
+                            <small>You have recieved a mention on twitter, check it out!</small>
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="alert-card">
+                          <i class="fa fa-info-circle fa-2x"></i>
+                          <p class="pull-right">
+                            Someone mentioned you <br>
+                            <small>You have recieved a mention on twitter, check it out!</small>
+                          </p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="btn-group dropleft dropdown-avatar">
+                  <img src="https://lh3.googleusercontent.com/ogw/ADea4I70AxG9Ocz4JTk7gJZc-NSBfmq4ojV-mU0JyYo8IQ=s32-c-mo"/> Samson Monday<i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                  <ul class="dropdown-menu"> 
+                    <li><a href="#">Profile update and Manage</a></li>
+                    <li><a href="#">Help and Support Contact and FAQ</a></li>
+                    <li><a href="#">Complaint Report and Error</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        <div class="content">
+          <div class="row">
+            <div class="col-sm-7">
+              <div class="card-7">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="active"><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+                  <li><a href="#payroll" role="tab" data-toggle="tab">Payroll</a></li>
+                  <li><a href="#leaves" role="tab" data-toggle="tab">Leaves</a></li>
+                  <li><a href="#attendance" role="tab" data-toggle="tab">Attendance</a></li>
+                  <li><a href="#documents" role="tab" data-toggle="tab">Documents</a></li>
+                  <li><a href="#timeline" role="tab" data-toggle="tab">Timeline</a></li>
+                </ul> 
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="activity">
+                    <ul>
+                      <small class="title">HR/Staff Profile</small>
+                      <li>
+                        <h6>
+                          Phone <b>123456789</b>
+                        </h6>
+                      </li>
+                      <li>
+                        <h6>
+                          Emergency Contact <b>12312</b>
+                        </h6>
+                      </li>
+                      <li>
+                        <h6>
+                          Email <b>isaac@getwell.com</b>
+                        </h6>
+                      </li>
+                      <li>
+                        <h6>
+                          Date-Of-Birth <b>2021-12-05</b>
+                        </h6>
+                      </li>
+                      <li>
+                        <h6>
+                          Specialty <b>1</b>
+                        </h6>
+                      </li>
+                      <li>
+                        <h6>
+                          Father Name <b>Edwin Isaac</b>
+                        </h6>
+                      </li>
+                      <li>
+                        <h6>
+                          Mother Maiden Name <b>Agnes Isaac</b>
+                        </h6>
+                      </li>
+                      <li>
+                        <h6>
+                          Highest Qualification <b>B.Eng</b>
+                        </h6>
+                      </li>
+                      <li>
+                        <h6>
+                          Qualification Date <b>2021</b>
+                        </h6>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div> 
+            </div>
+            <div class="col-sm-5">
+              <div class="card-5">
+                <div class="profile">
+                  <img src="https://bit.ly/2MoguT5" class="img-circle">
+                  <h4>ISAAC Isaac</h4>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <button class="btn btn-primary btn-block">Change Password</button>
+                  </div>
+                  <div class="col-sm-6">
+                    <button class="btn btn-default btn-block">Edit</button>
+                  </div>
+                </div>
+                <hr>
+                <div class="fb">
+                  
+                  <h5>Staff ID <br><small>Staff 001w222</small></h5>
+                </div>
+                <div class="drop">
+                  
+                  <h5>Role <br><small>Admin</small></h5>
+                </div>
+                <div class="drop">
+                  
+                  <h5>Designation <br><small>CMD</small></h5>
+                </div>
+                <div class="drop">
+                  <h5>Department <br><small>4</small></h5>
+                </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Candidates -->
+      <div id="candidates" class="tab-pane fade">
+        <div class="header">
+          <h4>Candidates</h4>
+          <ul class="pull-right"></ul>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
